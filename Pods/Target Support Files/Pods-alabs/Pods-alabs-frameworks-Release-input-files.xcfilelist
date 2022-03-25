@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-alabs/Pods-alabs-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
