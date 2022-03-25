@@ -15,7 +15,7 @@ protocol ShowProtocol: class {
 
 class MainVC: UIViewController {
 
-    //let apiConverter = ApiConverterHelper()
+    let apiConverter = ApiConverterHelper()
 
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var collectionView: UICollectionView!

@@ -16,7 +16,7 @@ public enum Result<T, U> {
 class VideoListWorker {
     static func fetchVideo(searchText: String,completion: @escaping (Result<VideoListResponse, Error>) -> () ) {
 
-        //let apiConverter = ApiConverterHelper()
+        let apiConverter = ApiConverterHelper()
 
         DispatchQueue.global(qos: .utility).async {
             guard let url = URL(string: apiConverter.getUrlVideo(photoName: searchText)) else { return }
